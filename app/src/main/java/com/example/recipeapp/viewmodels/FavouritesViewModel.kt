@@ -1,7 +1,7 @@
 package com.example.recipeapp.viewmodels
 
 import androidx.lifecycle.ViewModel
-import com.example.recipeapp.FavoriteRecipe
+import com.example.recipeapp.data.FavoriteRecipe
 import com.example.recipeapp.data.RecipeRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

@@ -1,6 +1,6 @@
 package com.example.recipeapp.data
 
-import com.example.recipeapp.FavoriteRecipe
+import com.example.recipeapp.data.FavoriteRecipe
 import com.example.recipeapp.dto.RecipeDto
 import com.example.recipeapp.network.SpoonacularApi
 import javax.inject.Inject

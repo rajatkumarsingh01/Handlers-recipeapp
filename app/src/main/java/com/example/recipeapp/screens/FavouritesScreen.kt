@@ -21,7 +21,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
-import com.example.recipeapp.FavoriteRecipe
+import com.example.recipeapp.data.FavoriteRecipe
 import com.example.recipeapp.viewmodels.FavouritesViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

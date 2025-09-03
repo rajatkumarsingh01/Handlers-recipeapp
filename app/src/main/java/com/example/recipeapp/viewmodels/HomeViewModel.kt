@@ -36,7 +36,7 @@ class HomeViewModel @Inject constructor(private val repo: RecipeRepository) : Vi
 
     init {
         refresh()
-        onSearch("Search any recipe")
+        onSearch("Biryani")
     }
 
 
