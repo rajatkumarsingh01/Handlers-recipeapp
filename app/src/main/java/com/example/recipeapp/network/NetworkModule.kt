@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    private const val API_KEY = "76deae832d86403a8eeb24b523e6478b"
+    private const val API_KEY = "api_key"
     @Provides @Singleton
     fun provideInterceptor(): Interceptor = Interceptor { chain ->
         val newUrl = chain.request().url.newBuilder()
